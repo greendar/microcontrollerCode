@@ -1,4 +1,5 @@
 # policeLights.py
+
 from machine import Pin
 import utime
 
@@ -23,5 +24,3 @@ while True:
         redLED.toggle()
         utime.sleep(blinkTime)
     utime.sleep(sleepBetween)
-    
- 
